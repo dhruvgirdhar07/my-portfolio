@@ -1121,3 +1121,16 @@ body {
     gap: 15px;
   }
 } */
+
+.navbar-toggler{
+  border: none !important;
+}
+
+.navbar-toggler-icon{
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
+}
+.navbar-toggler-icon svg{
+  stroke: white;
+}
