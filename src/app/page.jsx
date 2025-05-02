@@ -132,6 +132,7 @@ export default function Home() {
               autoplay
               autoplayInterval={2000}
               controls={false}
+              indicators={false}
               style={{ height: 60 }}
             >
               {skills.map((group, index) => (
@@ -169,6 +170,7 @@ export default function Home() {
                             color: "black",
                           }}
                         >
+                          {/* Optional connector icon */}
                           <svg
                             fill="none"
                             height="24"
@@ -464,7 +466,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-
+            
       <section className="contact-section" id="contact">
         <div className="contact-section-container">
           <div className="row">
