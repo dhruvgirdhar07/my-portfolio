@@ -199,7 +199,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-5">
               <img
-                src="/dhruv-about-new-pic.svg"
+                src="/dhruv-about-new-pic-2.svg"
                 alt="dhruv"
                 className="blob2"
               />
